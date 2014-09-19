@@ -35,6 +35,29 @@ body {
 	border-radius: 7px;
 }
 
-.form {
-	display: none;
+.container textarea {
+	width: 100%;
+}
+
+.closebutton {
+	color: #FFF;
+	text-decoration: none;
+	font-size: .8em;
+	background: #ff9999;
+	padding: 8px 30px;
+	display: inline-block;
+	border-radius: 5px;
+
+}
+
+.buttoncontainer {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+#form {
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	margin-top: 0px;
 }
